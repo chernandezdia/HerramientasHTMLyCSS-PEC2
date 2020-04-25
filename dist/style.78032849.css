@@ -1,0 +1,238 @@
+body {
+    height: 100vh;
+    -moz-columns: #000000;
+         columns: #000000;
+    background: url('/header-img.bd118b29.jpg') no-repeat fixed center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.album a {
+  text-decoration: none;
+}
+
+.album a:hover,
+.album a:focus {
+  color: #dddddd;
+}
+
+main {
+  padding: 100px 0px 100px 0px;
+}
+
+main .card-title {
+  font-size: 28px;
+}
+
+.page-footer {
+  background-color: #0A1F5C;
+  color: #ffffff;
+}
+
+.color-1 {
+  color: #000000;
+}
+
+.color-2 {
+  color: #000000;
+}
+
+.bg-blue {
+  background-color: #8893B0;
+}
+
+.bg-blue a {
+  color: #ffffff;
+}
+
+.medium {
+  font-size: 24px;
+}
+
+.header p {
+  color: #ACB8DB;
+}
+
+@media (max-width: 815px) {
+  .header h1 {
+    font-size: 2.5rem !important;
+  }
+  .header p {
+    font-size: 19px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .md-bundler h1 {
+    margin-top: 30px;
+  }
+  .card {
+    margin-top: 30px;
+  } 
+}
+
+@media (max-width: 815px) {
+  .img-uoc {
+    display:block;
+  }
+  
+  .navbar-ppal-uoc a {
+    display:none;
+  }
+}
+
+.ml-10 {
+padding-left: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.ml-30 {
+  margin-left: 40px;
+}
+
+.mr-30 {
+  margin-right: 40px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.navbar-ppal-uoc {
+  border-bottom: 2px solid #173079;
+}
+
+.navbar-ppal-uoc a {
+  color: #173079;
+}
+
+#cont-navbar {
+  background-color: #0A1F5C;
+  width: 100%;
+}
+
+#cont-navbar button {
+  margin-left: 10px;
+}
+
+#cont-navbar a {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+.nav-link {  
+  color: #ffffff !important;  
+  padding: 20px 30px 20px 30px !important;
+}
+
+.dropdown-item {  
+  color: #0A1F5C !important;
+  width: auto !important;
+}
+
+.dropdown-menu {
+  background-color: #ffffff;
+  border: 1px solid #0A1F5C;
+}
+
+.active {
+  background-color: #ffffff;
+  color: #0A1F5C !important;
+}
+
+.active-dropdownmenu {
+  background-color: #0A1F5C;
+  color: #ffffff !important;
+}
+
+.md-bundler {
+  color: #000000;
+  margin-bottom: 100px;
+}
+
+.md-bundler .bg-color-1 {
+  background-color: #ECEFF7;
+}
+
+.md-bundler h1 {
+  font-size: 26px;
+}
+
+.md-bundler a {
+  color: #000000;
+}
+
+.jumbotron {
+  background-color: #0A1F5C;
+  padding: 30px 0px 30px 0px;
+  margin: none !important;
+  width: 100%;
+}
+
+.jumbotron p {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.center-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*# sourceMappingURL=/style.78032849.css.map */
