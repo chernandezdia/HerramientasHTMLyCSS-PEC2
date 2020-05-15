@@ -85,7 +85,6 @@ main .card-title {
 
   header img {
     padding: 10px 0px 10px 10px !important;
-    
     width: 150px;
   }
 }
@@ -327,4 +326,24 @@ padding-left: 10px;
 .navbar-color  a {
   color: #061748;
   font-weight: bold;
+}
+
+/* Animacion */
+.md-bundler ul,
+.text-lenguajes h1,
+.text-preprocesadores h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 200%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
