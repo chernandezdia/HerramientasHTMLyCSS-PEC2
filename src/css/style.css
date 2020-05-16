@@ -275,6 +275,11 @@ padding-left: 10px;
   color: #000000;
 }
 
+.md-bundler img{
+  display:block;
+  margin:auto;
+  }
+
 .jumbotron {
   background-color: #0A1F5C;
   padding: 30px 0px 30px 0px;
