@@ -281,7 +281,8 @@ padding-left: 10px;
 }
 
 .md-bundler img,
-.lang-types img {
+.lang-types img,
+.page-footer img {
   display:block;
   margin:auto;
   }
@@ -314,11 +315,6 @@ padding-left: 10px;
   background-color: #061748;
 }
 
-.page-footer img {
-  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-          clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-}
-
 .font-family-1 {
   font-family: Vegur, 'PT Sans', Verdana, sans-serif;
 }
@@ -341,9 +337,7 @@ padding-left: 10px;
 }
 
 /* Animacion */
-.md-bundler ul,
-.text-lenguajes h1,
-.text-preprocesadores h1 {
+.animation {
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
   -webkit-animation-name: slidein;
