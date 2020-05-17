@@ -279,7 +279,8 @@ padding-left: 10px;
   color: #000000;
 }
 
-.md-bundler img {
+.md-bundler img,
+.lang-types img {
   display:block;
   margin:auto;
   }
@@ -354,5 +355,12 @@ padding-left: 10px;
   to {
     margin-left: 0%;
     width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .md-bundler .col-lg-6 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 }
